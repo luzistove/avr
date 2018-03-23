@@ -1,0 +1,55 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/Atmel Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>D:\Atmel Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/Atmel Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\Debug\stoppuhr.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>stoppuhr.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>stoppuhr.map</FILE>
+  <FILE>stoppuhr.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <table_stelle><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>19</LINE></table_stelle>
+  <table_nummer><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>21</LINE></table_nummer>
+  <main><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>50</LINE></main>
+  <display_reset_init><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>158</LINE></display_reset_init>
+  <mode_select_avr><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>200</LINE></mode_select_avr>
+  <timer1_overflow><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>420</LINE></timer1_overflow>
+  <mode_select_pc><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>228</LINE></mode_select_pc>
+  <output_init><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>100</LINE></output_init>
+  <uart_init><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>118</LINE></uart_init>
+  <exint_init><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>142</LINE></exint_init>
+  <display_reset><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>162</LINE></display_reset>
+  <delay_short><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>452</LINE></delay_short>
+  <jmp_display_count_init_avr><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>212</LINE></jmp_display_count_init_avr>
+  <jmp_display_pause_init_avr><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>216</LINE></jmp_display_pause_init_avr>
+  <jmp_display_count_avr><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>219</LINE></jmp_display_count_avr>
+  <display_count_init><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>332</LINE></display_count_init>
+  <display_pause_init><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>286</LINE></display_pause_init>
+  <display_count><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>368</LINE></display_count>
+  <status_pc><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>232</LINE></status_pc>
+  <status_avr><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>239</LINE></status_avr>
+  <jmp_display_reset_pc><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>265</LINE></jmp_display_reset_pc>
+  <jmp_display_count_init_pc><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>250</LINE></jmp_display_count_init_pc>
+  <jmp_display_pause_init_pc><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>255</LINE></jmp_display_pause_init_pc>
+  <jmp_display_count_pc><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>259</LINE></jmp_display_count_pc>
+  <display_pause><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>295</LINE></display_pause>
+  <inc_stelle2><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>426</LINE></inc_stelle2>
+  <inc_stelle3><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>433</LINE></inc_stelle3>
+  <inc_stelle4><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>440</LINE></inc_stelle4>
+  <L1><FILE>E:\TUHH master\Microcontroller\Software\stoppuhr\stoppuhr1\stoppuhr\stoppuhr\main.asm</FILE><LINE>455</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>
