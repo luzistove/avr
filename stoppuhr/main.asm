@@ -1,3 +1,4 @@
+
 ;
 ; stoppuhr.asm
 ;
@@ -23,7 +24,7 @@ table_nummer: .BYTE 10	; selection, to display number
 
 ;.equ F_quarz = 4000000
 ;.equ baud = 9600
-;.equ UBRR_VAL = ((F_quarz+baud*8)/(baud*16)-1)
+;.equ UBRR_VAL = F_quarz/(baud*16-1)
 
 
 .CSEG
@@ -117,15 +118,20 @@ output_init:
 ;================================================
 uart_init:
 		cli
-		ldi r16, 0x80	; Set Baudrate
-		out UBRRH, r16
+
+		ldi r16, 0x00
+		out UCSRB, r16
+		out UCSRC, r16
+
+		;ldi r16, HIGH(UBRR_VAL)	; Set Baudrate
+		;out UBRRH, r16
 		ldi r16, 0x19
 		out UBRRL, r16
 		
 			
 
 		clr r16
-		ldi r16, (1<<RXCIE)|(1<<TXEN)|(1<<RXEN)		
+		ldi r16, (1<<RXCIE)|(1<<RXEN)		
 		out UCSRB, r16
 
 		clr r16
@@ -230,9 +236,9 @@ mode_select_pc:
 		in r16, UDR
 
 status_pc:
-		cpi r16, 1
+		cpi r16, '1'
 		breq status_avr
-		cpi r16, 0
+		cpi r16, '0'
 		breq jmp_display_reset_pc
 
 
@@ -337,9 +343,9 @@ display_count_init:
 							; in advanced. The prescaler is 64, that is 
 							; why register TCCR1B is 0x03
 		
-		ldi r16, 0x00		; Load the hex number of 62499 into register
+		ldi r16, 0xF4		; Load the hex number of 62499 into register
 		out TCNT1H, r16     ; TCNT1
-		ldi r16, 0x01
+		ldi r16, 0x23
 		out TCNT1L, r16    
 
 		ldi r16, 0x04       ; Interrupt enable, register TIMSK
